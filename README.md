@@ -1,4 +1,4 @@
-# Rivalz
+<h1 align="center">Rivalz</h1>
 
 > Selamlar, teşvikli Rivalz node va app testleri yaptım. Katılırken bir çok şey öğreneceğinizi düşünüyorum
 
@@ -6,7 +6,9 @@
 
 > Donanım kısmı için her sunucu olur, sunucunuz ne kadar iyise o kadar rewards demek, miner olcaz sonuçta..
 
-# Kurulum
+#
+
+<h1 align="center">Kurulum</h1>
 
 > Windows Server 2019 Englishi bul - Mouth butonuna tıkla - 3. numarada ki ikona tıkla ve sunucuna bağlan
 
@@ -105,6 +107,32 @@
 
 # Rivalz Node Kurulumu
 
+> Rivalz hesap açıyoruz [buradan](https://rivalz.ai?r=Ruesandora0)
 
+> Burada cüzdan, twitter ve discord her şey bağlayın.
 
+#
 
+> Remote ile bağlandığımız ekrana geri dönüyoruz.
+
+> Microsoft Edge'i indiriyoruz Remota'a (suncuya)
+
+> rivalz.ai sitesine girip dowland windows diyoruz
+
+> Kurulumu yapıyoruz
+
+#
+
+> Kurulum tamamlandıktan sonra, önce metmaask cüzdan adresimizi giriyoruz
+
+> Storage Control'den free space neye müsade ediyorsa o rakamı giriyoruz
+
+> Sonra başlatıyoruz node'u ve hayırlı olsun.
+
+<img width="1251" alt="Ekran Resmi 2024-05-25 00 38 38" src="https://github.com/ruesandora/Rivalz/assets/101149671/cdf68d07-c897-4e5a-93d8-b34e2c4a82ee">
+
+#
+
+> Akabinde rivalz'da LOYALTY NFTs kısmını yapmayı unutmayın mintlein 10 NFT'yi.
+
+> Rivalz hakkında link paylaşmak isterseniz [burayı](https://t.me/ruesshare/21528) kullanabilirsiniz.
