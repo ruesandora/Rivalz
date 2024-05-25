@@ -139,7 +139,10 @@
 > Vps kontrol kısmına gidin, Önce Cloud init kısmını yeşil yapın, sonra Re install butonuna basın.
 ![image](https://github.com/enzifiri/Rivalz/assets/76253089/d00b1652-51e7-4239-9ce6-5333a1adcf60)
 
-> Görseldeki adımları sırasıyla yapın, ve install butonuna basın. Sonrasında uyarı pop-up mesajı gelecek orda da Install butonuna basın ve 5 dakika bekleyin.
+> Görseldeki adımları sırasıyla yapın.
+> Windows Contaboyu seçtikten sonra Install butonuna basın. 5 Dakika sonra bir sonraki adıma geçin.
+![image](https://github.com/ruesandora/Rivalz/assets/76253089/ea4eac88-f4a9-4291-b9e1-bb7a4fd854bf)
+
 
 # Windows kurulumu başlayacak, şimdi VNC ile sunucumuza bağlanmamız gerekiyor. 
 > Windows pc kullanıyosanız Mobaxterm ile bağlanabilirsiniz.
