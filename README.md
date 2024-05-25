@@ -107,10 +107,8 @@
 > Sunucu bilgilerinizi yazıp bağlanın.
 
 ![image](https://github.com/ruesandora/Rivalz/assets/101149671/90d5a984-c824-4834-9966-835fc4cee65d)
-
 </details>
 
-#
 <details>
   <summary> <h1> Contabo Kurulumu</summary> </h1>
     
@@ -138,8 +136,32 @@
 > Upload butonuna basın ve dolmasını bekleyin. Bu adımda yüklenmesi contabodan kaynaklı olarak 1-2 saat sürebiliyor. Yüklendikten sonra diğer adıma geçin.
 
 # Kurduğumuz İso dosyasını sunucuya mounth etme adımı
-> Önce Cloud init kısmını yeşil yapın, sonra Re install butonuna basın.
+> Vps kontrol kısmına gidin, Önce Cloud init kısmını yeşil yapın, sonra Re install butonuna basın.
 ![image](https://github.com/enzifiri/Rivalz/assets/76253089/d00b1652-51e7-4239-9ce6-5333a1adcf60)
+
+> Görseldeki adımları sırasıyla yapın, ve install butonuna basın. Sonrasında uyarı pop-up mesajı gelecek orda da Install butonuna basın ve 5 dakika bekleyin.
+
+# Windows kurulumu başlayacak, şimdi VNC ile sunucumuza bağlanmamız gerekiyor. 
+> Windows pc kullanıyosanız Mobaxterm ile bağlanabilirsiniz.
+> New Session oluşturup VNCyi seçin, VNC bağlantı bilgilerinizi bir sonraki adımda nasıl öğrenebileceğinizi göstericem.
+![image](https://github.com/enzifiri/Rivalz/assets/76253089/ee192e2b-1ded-48fc-b558-109a04c2a553)
+
+# VNC bilgilerinim nerede?
+
+> VPS control kısmında sunucunuzu bulun ve manage butonuna tıklayın VNC Informationda bilgileriniz yazıyor.
+
+> VNC ile bağlanınca mouse sıkıntısı oluyor, bu yüzden mouse kullanmak yerine TAB tuşu ve Enter tuşu ile gerekli işlemleri yapabilirsiniz.
+![image](https://github.com/enzifiri/Rivalz/assets/76253089/cc81709b-df3b-49e6-94e4-0b3f1717dfa3)
+
+# Windows Kurulumunu tamamlayalım.
+
+> Mavi arkaplanlı kısım gelecek hiç bir ayarı değiştirmeden Nexte bas ardından Install Now butonuna tıklıyoruz. 
+
+> Sonrasında 2. sıradaki Desktop Experince yazana tıklıyoruz.
+
+![image](https://github.com/ruesandora/Rivalz/assets/101149671/a09a37af-48c8-43ce-9ae8-007e65ed306f)
+
+> Sonraki aşamada Custom: Install Windows only yazana tıklayın.
 
 </details>
 
