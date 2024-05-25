@@ -7,8 +7,11 @@
 > Donanım kısmı için her sunucu olur, sunucunuz ne kadar iyise o kadar rewards demek, miner olcaz sonuçta..
 
 #
+<details>
+  <summary> <h1> Hetzner Kurulumu</summary> </h1>
+    
+<h1 align="center">Hetner VPS için geçerlidir</h1>
 
-<h1 align="center">Kurulum</h1>
 
 > Windows Server 2019 Englishi bul - Mouth butonuna tıkla - 3. numarada ki ikona tıkla ve sunucuna bağlan
 
@@ -104,6 +107,41 @@
 > Sunucu bilgilerinizi yazıp bağlanın.
 
 ![image](https://github.com/ruesandora/Rivalz/assets/101149671/90d5a984-c824-4834-9966-835fc4cee65d)
+
+</details>
+
+#
+<details>
+  <summary> <h1> Contabo Kurulumu</summary> </h1>
+    
+<h1 align="center">Contabo VPS için geçerlidir</h1>
+
+> Bu işlem için contabo sunucu başına ekstra 1.5$ istiyor. Normalde Contaboya Windows kurmak isterseniz 6$ masraf çıkartıyor ama bu yöntemle bunu 1.5$a düşebiliyorsunuz.
+
+> Contabo hesabınıza giriş yapın, Control panelinden Custom Imagese tıklayın. Add Custom image butonuna tıklayın
+
+> Bilgilendirme mesajı gösterirse yes diyip geçin 1. kısımda anlattığım şeyi söylüyor size.
+
+> Karşınıza açılan Panelde verdiğim bilgileri girin.
+
+> Image URL: https://archive.org/download/newIsoForContabo/newIsoForContabo.iso
+>
+> Image Name: Windows Contabo
+>
+> Os Type: Windows
+>
+> Version: 2019
+>
+> Description: Rues
+![image](https://github.com/enzifiri/Rivalz/assets/76253089/71a3ff23-0075-4abc-934a-c6208623d7ac)
+
+> Upload butonuna basın ve dolmasını bekleyin. Bu adımda yüklenmesi contabodan kaynaklı olarak 1-2 saat sürebiliyor. Yüklendikten sonra diğer adıma geçin.
+
+# Kurduğumuz İso dosyasını sunucuya mounth etme adımı
+> Önce Cloud init kısmını yeşil yapın, sonra Re install butonuna basın.
+![image](https://github.com/enzifiri/Rivalz/assets/76253089/d00b1652-51e7-4239-9ce6-5333a1adcf60)
+
+</details>
 
 # Rivalz Node Kurulumu
 
