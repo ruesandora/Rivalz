@@ -8,9 +8,9 @@
 
 #
 <details>
-  <summary> <h1> Hetzner Kurulumu</summary> </h1>
+  <summary> <h1> Hetzner VPS Windows Kurulumu</summary> </h1>
     
-<h1 align="center">Hetner VPS için geçerlidir</h1>
+<h1 align="center">Sadece Hetner VPS için geçerlidir</h1>
 
 
 > Windows Server 2019 Englishi bul - Mouth butonuna tıkla - 3. numarada ki ikona tıkla ve sunucuna bağlan
@@ -110,9 +110,9 @@
 </details>
 
 <details>
-  <summary> <h1> Contabo Kurulumu</summary> </h1>
+  <summary> <h1> Contabo VPS Windows Kurulumu</summary> </h1>
     
-<h1 align="center">Contabo VPS için geçerlidir</h1>
+<h1 align="center">Sadece Contabo VPS için geçerlidir</h1>
 
 > Bu işlem için contabo sunucu başına ekstra 1.5$ istiyor. Normalde Contaboya Windows kurmak isterseniz 6$ masraf çıkartıyor ama bu yöntemle bunu 1.5$a düşebiliyorsunuz.
 
@@ -171,17 +171,18 @@
 
 ![image](https://github.com/enzifiri/Rivalz/assets/76253089/1fc9b04f-d7f9-4bbf-9677-3e0f2a89e0dc)
 
-> New butonuna bas, hiç bi ayar değişmeden Apply butonuna bas ve Next yap. Bu aşamada windows kurulmaya başlanacak ve sizden şifre girmenizi isteyecek.
+> New butonuna bas, hiç bi ayar değişmeden Apply butonuna bas ve Next yap.
 
 ![image](https://github.com/enzifiri/Rivalz/assets/76253089/7a6a13cb-72c5-4cd7-940d-dd0a8043e613)
 
-> Sunucumuza off/on yapıyor tekrar bağlanıyoruz.
+> Sunucumuza off/on yapıyor tekrar bağlanıyoruz. (EĞER SİYAH EKRANDA KALDIYSANIZ BUNU YAPIN NORMALDE OTOMATİK YAPIYOR)
 
 > Akabinde şifre belirleme alanı geliyor burda 8 haneli bir şifre girin büyük harf istiyor
 
 ![image](https://github.com/ruesandora/Rivalz/assets/101149671/8d513ee7-7302-47b4-8a31-0fa04f5c2d61)
 
-> Windowsun kilit ekranı kısmına geldiğinizde sağ alttaki Ctrl + Alt + Del butonuna tıklayın ve masaüstüne geçiş yapın. 
+> Windowsun kilit ekranı kısmına geldiğinizde sağ alttaki Ctrl + Alt + Del butonuna tıklayın ve masaüstüne geçiş yapın.
+![image](https://github.com/enzifiri/Rivalz/assets/76253089/1796694a-5a90-479d-9c98-6682684c5a3b)
 
 > İlk açılışta Server Manager kısmı açılıyor. Alttaki görseli takip edin 3 ve 4. kısımdaki tikler fotodakiyle aynı olsun.
 
@@ -199,7 +200,8 @@
 
 > Browse my computer... yazanı seç ve fotoğraftaki adımları takip et
 
-![image](https://github.com/ruesandora/Rivalz/assets/101149671/acc911b3-fcfb-4570-9614-c7f9e2e9623f)
+![image](https://github.com/enzifiri/Rivalz/assets/76253089/e207a615-4ac1-40fb-a087-b1fe919b1660)
+
 
 > Sağ kısımda Mavi panel açılacak Network başlıklı, Yes butonuna basın. 
 
@@ -219,8 +221,12 @@
 > Mac'de Microsoft Remote Desktop - Windows'da Windows Remot isminde olmalı.
 
 > Sunucu bilgilerinizi yazıp bağlanın.
+> Kullanıcı Adı: Administrator
+> Şifre: Windows kururken girdiğiniz şifre
+![image](https://github.com/enzifiri/Rivalz/assets/76253089/454b08a5-bdf5-4c1b-b9a9-3b31cc7ac67b)
 
-![image](https://github.com/ruesandora/Rivalz/assets/101149671/90d5a984-c824-4834-9966-835fc4cee65d)
+# Windows kurulumu bitti, Şimdi Rivalz Nodeu kurmaya devam edebilirsiniz.
+
 </details>
 
 # Rivalz Node Kurulumu
