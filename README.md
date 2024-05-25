@@ -114,7 +114,7 @@
     
 <h1 align="center">Sadece Contabo VPS için geçerlidir</h1>
 
-> Bu işlem için contabo sunucu başına ekstra 1.5$ istiyor. Normalde Contaboya Windows kurmak isterseniz 6$ masraf çıkartıyor ama bu yöntemle bunu 1.5$a düşebiliyorsunuz.
+> Bu işlem için contabo  Aylık 1.5$ istiyor. Normalde Contaboya Windows kurmak isterseniz 6$ masraf çıkartıyor ama bu yöntemle bunu 1.5$a düşebiliyorsunuz.
 
 > Contabo hesabınıza giriş yapın, Control panelinden Custom Imagese tıklayın. Add Custom image butonuna tıklayın
 
