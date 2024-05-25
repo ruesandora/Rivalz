@@ -7,8 +7,11 @@
 > Donanım kısmı için her sunucu olur, sunucunuz ne kadar iyise o kadar rewards demek, miner olcaz sonuçta..
 
 #
+<details>
+  <summary> <h1> Hetzner VPS Windows Kurulumu</summary> </h1>
+    
+<h1 align="center">Sadece Hetner VPS için geçerlidir</h1>
 
-<h1 align="center">Kurulum</h1>
 
 > Windows Server 2019 Englishi bul - Mouth butonuna tıkla - 3. numarada ki ikona tıkla ve sunucuna bağlan
 
@@ -104,6 +107,127 @@
 > Sunucu bilgilerinizi yazıp bağlanın.
 
 ![image](https://github.com/ruesandora/Rivalz/assets/101149671/90d5a984-c824-4834-9966-835fc4cee65d)
+</details>
+
+<details>
+  <summary> <h1> Contabo VPS Windows Kurulumu</summary> </h1>
+    
+<h1 align="center">Sadece Contabo VPS için geçerlidir</h1>
+
+> Bu işlem için contabo  Aylık 1.5$ istiyor. Normalde Contaboya Windows kurmak isterseniz 6$ masraf çıkartıyor ama bu yöntemle bunu 1.5$a düşebiliyorsunuz.
+
+> Contabo hesabınıza giriş yapın, Control panelinden Custom Imagese tıklayın. Add Custom image butonuna tıklayın
+
+> Bilgilendirme mesajı gösterirse yes diyip geçin 1. kısımda anlattığım şeyi söylüyor size.
+
+> Karşınıza açılan Panelde verdiğim bilgileri girin.
+
+> Image URL: https://archive.org/download/newIsoForContabo/newIsoForContabo.iso
+>
+> Image Name: Windows Contabo
+>
+> Os Type: Windows
+>
+> Version: 2019
+>
+> Description: Rues
+![image](https://github.com/enzifiri/Rivalz/assets/76253089/71a3ff23-0075-4abc-934a-c6208623d7ac)
+
+> Upload butonuna basın ve dolmasını bekleyin. Bu adımda yüklenmesi contabodan kaynaklı olarak 1-2 saat sürebiliyor. Yüklendikten sonra diğer adıma geçin.
+
+# Kurduğumuz İso dosyasını sunucuya mounth etme adımı
+> Vps kontrol kısmına gidin, Önce Cloud init kısmını yeşil yapın, sonra Re install butonuna basın.
+![image](https://github.com/enzifiri/Rivalz/assets/76253089/d00b1652-51e7-4239-9ce6-5333a1adcf60)
+
+> Görseldeki adımları sırasıyla yapın, ve install butonuna basın. Sonrasında uyarı pop-up mesajı gelecek orda da Install butonuna basın ve 5 dakika bekleyin.
+
+# Windows kurulumu başlayacak, şimdi VNC ile sunucumuza bağlanmamız gerekiyor. 
+> Windows pc kullanıyosanız Mobaxterm ile bağlanabilirsiniz.
+> New Session oluşturup VNCyi seçin, VNC bağlantı bilgilerinizi bir sonraki adımda nasıl öğrenebileceğinizi göstericem.
+![image](https://github.com/enzifiri/Rivalz/assets/76253089/ee192e2b-1ded-48fc-b558-109a04c2a553)
+
+# VNC bilgilerinim nerede?
+
+> VPS control kısmında sunucunuzu bulun ve manage butonuna tıklayın VNC Informationda bilgileriniz yazıyor.
+
+> VNC ile bağlanınca mouse sıkıntısı oluyor, bu yüzden mouse kullanmak yerine TAB tuşu ve Enter tuşu ile gerekli işlemleri yapabilirsiniz.
+![image](https://github.com/enzifiri/Rivalz/assets/76253089/cc81709b-df3b-49e6-94e4-0b3f1717dfa3)
+
+# Windows Kurulumunu tamamlayalım.
+
+> Mavi arkaplanlı kısım gelecek hiç bir ayarı değiştirmeden Nexte bas ardından Install Now butonuna tıklıyoruz. 
+
+> Sonrasında 2. sıradaki Desktop Experince yazana tıklıyoruz.
+
+![image](https://github.com/ruesandora/Rivalz/assets/101149671/a09a37af-48c8-43ce-9ae8-007e65ed306f)
+
+> Sonraki aşamada Custom: Install Windows only yazana tıklayın.
+
+> Bu kısımı lütfen iyi okuyun atlarsanız diskiniz gözükmeyecektir.
+
+> Load Driver butonuna tıklayın
+> Browse butonuna tıklayın ve ardından D: disketindeki (177 ile başlayan) > virio-win klasörü > amd64 > 2k19 klasörünü seçin ve Ok butonuna tıklayın.
+> Eğer doğru klasörünü seçtiyseniz Red Hat SCSI ... ile başlayan bir text gelecek onu seçip next butonuna bas.
+
+![image](https://github.com/enzifiri/Rivalz/assets/76253089/1fc9b04f-d7f9-4bbf-9677-3e0f2a89e0dc)
+
+> New butonuna bas, hiç bi ayar değişmeden Apply butonuna bas ve Next yap.
+
+![image](https://github.com/enzifiri/Rivalz/assets/76253089/7a6a13cb-72c5-4cd7-940d-dd0a8043e613)
+
+> Sunucumuza off/on yapıyor tekrar bağlanıyoruz. (EĞER SİYAH EKRANDA KALDIYSANIZ BUNU YAPIN NORMALDE OTOMATİK YAPIYOR)
+
+> Akabinde şifre belirleme alanı geliyor burda 8 haneli bir şifre girin büyük harf istiyor
+
+![image](https://github.com/ruesandora/Rivalz/assets/101149671/8d513ee7-7302-47b4-8a31-0fa04f5c2d61)
+
+> Windowsun kilit ekranı kısmına geldiğinizde sağ alttaki Ctrl + Alt + Del butonuna tıklayın ve masaüstüne geçiş yapın.
+![image](https://github.com/enzifiri/Rivalz/assets/76253089/1796694a-5a90-479d-9c98-6682684c5a3b)
+
+> İlk açılışta Server Manager kısmı açılıyor. Alttaki görseli takip edin 3 ve 4. kısımdaki tikler fotodakiyle aynı olsun.
+
+![image](https://github.com/ruesandora/Rivalz/assets/101149671/8f38a679-dea8-49a9-b931-4b01994a5173)
+
+# Windows Server Ayarlarımızı tamamlayalım. 
+
+> Şifreyi ayarlayıp giriş yaptıktan sonra Windows logosuna sağ tıkla ve Device Manageri seç.
+
+![image](https://github.com/ruesandora/Rivalz/assets/101149671/9fb7f205-719c-481f-8051-ad88603a0328)
+
+> Açılan ekranda Other Devices bölümünde 3 veya 4 tane Sarı ünlem görüyorsunuz
+
+> Önce Ethernet yazana sağ tık yapın ve update driverse tıklayın.
+
+> Browse my computer... yazanı seç ve fotoğraftaki adımları takip et
+
+![image](https://github.com/enzifiri/Rivalz/assets/76253089/e207a615-4ac1-40fb-a087-b1fe919b1660)
+
+
+> Sağ kısımda Mavi panel açılacak Network başlıklı, Yes butonuna basın. 
+
+> Geri kalan 2 veya 3 Adet sarı ünleme aynı işlemleri yapın.
+
+#
+
+> Windows logosuna tıklayın ve arama yerine Remote Desktop Settings yazın.
+
+> Açılan ekrandaki Enable Remote Desktop kısmını aktif edin.
+
+![image](https://github.com/ruesandora/Rivalz/assets/101149671/448d8fd2-e841-4719-b95b-a765faf9e707)
+
+
+> Kişisel bilgisayarınızda Uzaktan Masaüstü bağlantı programı var onu açın.
+
+> Mac'de Microsoft Remote Desktop - Windows'da Windows Remot isminde olmalı.
+
+> Sunucu bilgilerinizi yazıp bağlanın.
+> Kullanıcı Adı: Administrator
+> Şifre: Windows kururken girdiğiniz şifre
+![image](https://github.com/enzifiri/Rivalz/assets/76253089/454b08a5-bdf5-4c1b-b9a9-3b31cc7ac67b)
+
+# Windows kurulumu bitti, Şimdi Rivalz Nodeu kurmaya devam edebilirsiniz.
+
+</details>
 
 # Rivalz Node Kurulumu
 
