@@ -163,6 +163,64 @@
 
 > Sonraki aşamada Custom: Install Windows only yazana tıklayın.
 
+> Bu kısımı lütfen iyi okuyun atlarsanız diskiniz gözükmeyecektir.
+
+> Load Driver butonuna tıklayın
+> Browse butonuna tıklayın ve ardından D: disketindeki (177 ile başlayan) > virio-win klasörü > amd64 > 2k19 klasörünü seçin ve Ok butonuna tıklayın.
+> Eğer doğru klasörünü seçtiyseniz Red Hat SCSI ... ile başlayan bir text gelecek onu seçip next butonuna bas.
+
+![image](https://github.com/enzifiri/Rivalz/assets/76253089/1fc9b04f-d7f9-4bbf-9677-3e0f2a89e0dc)
+
+> New butonuna bas, hiç bi ayar değişmeden Apply butonuna bas ve Next yap. Bu aşamada windows kurulmaya başlanacak ve sizden şifre girmenizi isteyecek.
+
+![image](https://github.com/enzifiri/Rivalz/assets/76253089/7a6a13cb-72c5-4cd7-940d-dd0a8043e613)
+
+> Sunucumuza off/on yapıyor tekrar bağlanıyoruz.
+
+> Akabinde şifre belirleme alanı geliyor burda 8 haneli bir şifre girin büyük harf istiyor
+
+![image](https://github.com/ruesandora/Rivalz/assets/101149671/8d513ee7-7302-47b4-8a31-0fa04f5c2d61)
+
+> Windowsun kilit ekranı kısmına geldiğinizde sağ alttaki Ctrl + Alt + Del butonuna tıklayın ve masaüstüne geçiş yapın. 
+
+> İlk açılışta Server Manager kısmı açılıyor. Alttaki görseli takip edin 3 ve 4. kısımdaki tikler fotodakiyle aynı olsun.
+
+![image](https://github.com/ruesandora/Rivalz/assets/101149671/8f38a679-dea8-49a9-b931-4b01994a5173)
+
+# Windows Server Ayarlarımızı tamamlayalım. 
+
+> Şifreyi ayarlayıp giriş yaptıktan sonra Windows logosuna sağ tıkla ve Device Manageri seç.
+
+![image](https://github.com/ruesandora/Rivalz/assets/101149671/9fb7f205-719c-481f-8051-ad88603a0328)
+
+> Açılan ekranda Other Devices bölümünde 3 veya 4 tane Sarı ünlem görüyorsunuz
+
+> Önce Ethernet yazana sağ tık yapın ve update driverse tıklayın.
+
+> Browse my computer... yazanı seç ve fotoğraftaki adımları takip et
+
+![image](https://github.com/ruesandora/Rivalz/assets/101149671/acc911b3-fcfb-4570-9614-c7f9e2e9623f)
+
+> Sağ kısımda Mavi panel açılacak Network başlıklı, Yes butonuna basın. 
+
+> Geri kalan 2 veya 3 Adet sarı ünleme aynı işlemleri yapın.
+
+#
+
+> Windows logosuna tıklayın ve arama yerine Remote Desktop Settings yazın.
+
+> Açılan ekrandaki Enable Remote Desktop kısmını aktif edin.
+
+![image](https://github.com/ruesandora/Rivalz/assets/101149671/448d8fd2-e841-4719-b95b-a765faf9e707)
+
+
+> Kişisel bilgisayarınızda Uzaktan Masaüstü bağlantı programı var onu açın.
+
+> Mac'de Microsoft Remote Desktop - Windows'da Windows Remot isminde olmalı.
+
+> Sunucu bilgilerinizi yazıp bağlanın.
+
+![image](https://github.com/ruesandora/Rivalz/assets/101149671/90d5a984-c824-4834-9966-835fc4cee65d)
 </details>
 
 # Rivalz Node Kurulumu
