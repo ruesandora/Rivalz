@@ -12,6 +12,12 @@
 
 <img width="222" alt="Ekran Resmi 2024-05-30 14 07 31" src="https://github.com/ruesandora/Rivalz/assets/101149671/5383d737-2820-4bd8-a036-447901db4817">
 
+
+> Windows ayarlarından bunu açın:
+
+![image](https://github.com/ruesandora/Rivalz/assets/101149671/97a811bc-a6c0-406f-8e80-994f9b55cd56)
+
+
 #
 
 <img width="399" alt="Ekran Resmi 2024-05-30 14 07 48" src="https://github.com/ruesandora/Rivalz/assets/101149671/4b21c768-2d31-467e-b810-55b9dbc690f6">
