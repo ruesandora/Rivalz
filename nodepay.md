@@ -8,6 +8,8 @@
 
 > Network kalitesi %30 ila %70 arası olur büyük ihtimalle, çünkü rivalzda çalışıyor olcak veya başka node.
 
+> Çalıştırdıktan sonra chrome/edge kapatmayın.
+
 <img width="222" alt="Ekran Resmi 2024-05-30 14 07 31" src="https://github.com/ruesandora/Rivalz/assets/101149671/5383d737-2820-4bd8-a036-447901db4817">
 
 #
