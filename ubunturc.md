@@ -34,7 +34,7 @@ wget https://api.rivalz.ai/fragmentz/clients/rClient-latest.AppImage
 
 > indirdiğimiz dosyayı executable yapalım.
 ```
-chmod +x rClient-latest-appImage
+sudo chmod +x rClient-latest.AppImage
 ```
 ![image](https://github.com/awelmisin/Rivalz/assets/73443933/cb35396c-4c4b-4f16-ad0a-ab7ed3ca0501)
 
