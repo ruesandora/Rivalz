@@ -7,7 +7,7 @@
 > Bu kısımda size fiyattan bahsediyor, yaklasık 10 GBlik bir snapshot olusturmus oluyoruz bunun maliyeti 0.11€/Aylık.
 > Create Buy now butonuna basıp onaylıyoruz, Snapshotun alınması 5 dakika sürüyor.
 
-### Servers kısmına dönün, Snapshots kısmına tıklayın ve ardından sunucunuzun sağındaki 3 noktaya basın. Bu sefer Create new Server olanı seçin.
+### Servers kısmına dönün, Snapshots kısmına tıklayın ve ardından Snapshotun sağındaki 3 noktaya basın. Bu sefer Create new Server olanı seçin.
 ![image](https://github.com/ruesandora/Rivalz/assets/76253089/c9bd8ef4-b8b5-442f-a316-7e5d7ca9b39c)
 
 
