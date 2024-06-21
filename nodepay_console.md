@@ -25,7 +25,7 @@ allow pasting
 <!-- ![image](https://github.com/awelmisin/Rivalz/assets/73443933/72cb8fa9-4079-47f1-a41f-5b609cc4a3a1) -->
 >
 > Bu kodu yapıştırıyoruz ve Enter'a basıyoruz.
-> > Not : Kodun yenileme süresi default olarak 20 saniyeye ayarlı. Sondaki 20000'i ms cinsinden düzenyelebilirsiniz.
+> > Not : Kodun yenileme süresi default olarak 20 saniyeye ayarlı. Sondaki 20000'i ms cinsinden düzenleyebilirsiniz.
 
 
 ```
