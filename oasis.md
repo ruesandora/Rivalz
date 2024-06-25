@@ -4,10 +4,6 @@
 
 > [Buradan](https://r.oasis.ai/0e8f5a273975f851) bir hesap oluşturup, extensionu kuruyorsunuz.
 
-> Akabinde aktif edip 5-10 dk sonra puanın yansımasını bekliyorsunuz.
-
-> Network kalitesi %30 ila %70 arası olur büyük ihtimalle, çünkü rivalzda çalışıyor olcak veya başka node.
-
 > Çalıştırdıktan sonra chrome/edge kapatmayın.
 
 
