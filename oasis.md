@@ -2,7 +2,7 @@
 
 > Bunun için rivalz gerekmez, başka sunucuya da yapabilirsiniz veya cihaza.
 
-> [Buradan](https://r.oasis.ai/0e8f5a273975f851) bir hesap oluşturup, extensionu kuruyorsunuz.
+> [Buradan](https://r.oasis.ai/rues) bir hesap oluşturup, extensionu kuruyorsunuz.
 
 > Çalıştırdıktan sonra chrome/edge kapatmayın.
 
