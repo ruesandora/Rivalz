@@ -6,6 +6,11 @@
 
 > Çalıştırdıktan sonra chrome/edge kapatmayın.
 
+> Extension sağ üstten böyle yapın:
+
+![image](https://github.com/ruesandora/Rivalz/assets/101149671/04a5f8a7-58a8-4137-80b9-1bc63d1af978)
+
+
 
 > Windows ayarlarından bunu açın:
 
