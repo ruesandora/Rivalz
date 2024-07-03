@@ -38,7 +38,7 @@
 
 ## Network3
 
-> Bir hesap oluşturun ve bağlanın.
+> Bir hesap oluşturun ve bağlanın..
 
 > Sunucunuzun içinde [bu](https://network3.ai/) websiteyi açın.
 
