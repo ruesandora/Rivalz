@@ -43,17 +43,23 @@
 
   > Terminalimizi açalım ve komutlarımızı girelim.
 ```console
- wget https://network3.io/ubuntu-node-v1.1.tar
- tar -xf ubuntu-node-v1.1.tar
- cd ubuntu-node
-# nodemuzu başlatalım
-sudo bash manager.sh
+# Network3 yükleyelim. 
+wget https://network3.io/ubuntu-node-v1.1.tar
+tar -xf ubuntu-node-v1.1.tar
+cd ubuntu-node
 # port açalım
 sudo ufw allow 8080
+# nodemuzu başlatalım
+sudo bash manager.sh
+
 ```
 > Kendi bilgisayarımıza geçelim ve tarayıcıya girelim.
 
-> Linkte sunucuip'mizi düzenleyip tarayıcıda aratalım.https://account.network3.ai/main?o=sunucuip:8080
+> [Buradan](https://account.network3.ai/register_page) bir hesap oluşturalım ya da varsa giriş yapalım. 
+
+> Linkte sunucuip'mizi düzenleyip tarayıcıda aratalım.
+
+> https://account.network3.ai/main?o=sunucuip:8080
 
 > Aşağıdaki resimdeki + butonuna basalım.
 
