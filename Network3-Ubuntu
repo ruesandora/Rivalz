@@ -1,10 +1,11 @@
 #
+<h1 align="center">Network3 Ubuntu Kurulumu</h1>
 
-<h1 align="center">Node'u İndirme</h1>
-
+##Node'u İndirme
 
 1. **Tar Dosyasını İndirin:**
 > `wget` komutunu kullanarak tar dosyasını indirin:
+
 ```
 wget https://network3.io/ubuntu-node-v1.1.tar
 ```
@@ -29,6 +30,7 @@ cd ubuntu-node
 
 4. **Node'u Başlatın:**
 > Node'u başlatmak için `manager.sh` scriptini çalıştırın:
+
 ```
 sudo bash manager.sh up
 ```
@@ -45,9 +47,11 @@ Dashboard'ı başka bir makineden görüntülemek için:
 
 2. **Dashboard URL'sini Ziyaret Edin:**
 > Şu URL'ye gidin:
+
 ```
 https://account.network3.ai/main?o=xx.xx.xx.xx:8080
 ```
+
 > `xx.xx.xx.xx` kısmını Ubuntu makinenizin gerçek IP adresiyle değiştirin.
 
 Bu URL, diğer makineden Ubuntu node'unun dashboard'ına erişim sağlar.
