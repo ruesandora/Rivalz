@@ -20,6 +20,8 @@
 
 > Auto refresher (bu repoda mevcut) ile nodepayı aktif tutmaya çalışabilirsiniz.
 
+> Ayrıca sağ üstten `ItsClassified` ve `SendN_des` voucher puanlarınızı alabilirsiniz. (Sınırlı sayıda) 
+
 #
 
 ## OasisAI
