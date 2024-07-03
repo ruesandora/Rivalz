@@ -50,7 +50,7 @@ cd ubuntu-node
 # port açalım
 sudo ufw allow 8080
 # nodemuzu başlatalım
-sudo bash manager.sh
+sudo bash manager.sh up
 
 ```
 > Kendi bilgisayarımıza geçelim ve tarayıcıya girelim.
