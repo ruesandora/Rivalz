@@ -48,6 +48,8 @@
 
 #
 
+> indiriken problem yaşarsanız.
+
 > Windows ayarlarından bunu açın:
 
 ![image](https://github.com/ruesandora/Rivalz/assets/101149671/97a811bc-a6c0-406f-8e80-994f9b55cd56)
