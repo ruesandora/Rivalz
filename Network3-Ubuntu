@@ -1,60 +1,51 @@
-#
-<h1 align="center">Network3 Ubuntu Kurulumu</h1>
+# Network3 Ubuntu Kurulum Rehberi
 
-##Node'u İndirme
+
+### Node'u İndirme
+
 
 1. **Tar Dosyasını İndirin:**
-> `wget` komutunu kullanarak tar dosyasını indirin:
-
-```
-wget https://network3.io/ubuntu-node-v1.1.tar
-```
+   - `wget` komutunu kullanarak tar dosyasını indirin:
+     ```bash
+     wget https://network3.io/ubuntu-node-v1.1.tar
+     ```
 
 ### Node'u Kurma
 
 
 2. **Tar Dosyasını Çıkartın:**
-
-> `tar` komutunu kullanarak tar dosyasını çıkartın:
-
-```
-tar -xf ubuntu-node-v1.1.tar
-```
-
+   - `tar` komutunu kullanarak tar dosyasını çıkartın:
+     ```bash
+     tar -xf ubuntu-node-v1.1.tar
+     ```
+   - Bu komut `ubuntu-node` adında bir dizin oluşturacaktır.
 
 3. **`ubuntu-node` Dizine Geçin:**
-
-```
-cd ubuntu-node
-```
+   - Yeni oluşturulan `ubuntu-node` dizinine geçin:
+     ```bash
+     cd ubuntu-node
+     ```
 
 4. **Node'u Başlatın:**
-> Node'u başlatmak için `manager.sh` scriptini çalıştırın:
-
-```
-sudo bash manager.sh up
-```
-> Terminalde `node is ready` ifadesini görene kadar bekleyin, bu node'un başarıyla başlatıldığını gösterir.
+   - Node'u başlatmak için `manager.sh` scriptini çalıştırın:
+     ```bash
+     sudo bash manager.sh up
+     ```
+   - Terminalde `node is ready` ifadesini görene kadar bekleyin, bu node'un başarıyla başlatıldığını gösterir.
 
 ### Dashboard'a Erişme
 
 
-Dashboard'ı başka bir makineden görüntülemek için:
+2. **Başka Bir Makinede Tarayıcı Açın:**
+   - Başka bir makinede herhangi bir web tarayıcısını açın.
 
-
-1. **Başka Bir Makinede Tarayıcı Açın:**
-> Başka bir makinede Firefox veya herhangi bir web tarayıcısını açın.
-
-2. **Dashboard URL'sini Ziyaret Edin:**
-> Şu URL'ye gidin:
-
-```
-https://account.network3.ai/main?o=xx.xx.xx.xx:8080
-```
-
-> `xx.xx.xx.xx` kısmını Ubuntu makinenizin gerçek IP adresiyle değiştirin.
+3. **Dashboard URL'sini Ziyaret Edin:**
+   - Şu URL'ye gidin:
+     ```plaintext
+     https://account.network3.ai/main?o=xx.xx.xx.xx:8080
+     ```
+   - `xx.xx.xx.xx` kısmını Ubuntu makinenizin gerçek IP adresiyle değiştirin.
 
 Bu URL, diğer makineden Ubuntu node'unun dashboard'ına erişim sağlar.
 
 ---
-#
