@@ -32,7 +32,11 @@
      sudo bash manager.sh up
      ```
    - Terminalde `node is ready` ifadesini görene kadar bekleyin, bu node'un başarıyla başlatıldığını gösterir.
-
+   - line:50 ifconfig not found hatası alanlar uygulasın.
+      cd
+      sudo apt-get update
+      sudo apt-get install net-tools
+      /sbin/ifconfig eth0 up
 ### Dashboard'a Erişme
 
 
