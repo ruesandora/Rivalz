@@ -298,6 +298,8 @@ chmod +x rClient-latest.AppImage
 
 > Storage Control'den free space neye müsade ediyorsa o rakamı giriyoruz
 
+> 3-4 GB daha düşük yazın 
+
 > Sonra başlatıyoruz node'u ve hayırlı olsun.
 
 >  rClient uygulamasında sol üstte view sekmesi var oradan reload'a basıp, node'u tekrar çalıştırın
