@@ -96,6 +96,16 @@ sudo bash manager.sh down
 
 > Bir kaç dakika sonra hesabınız Connected olacaktır.
 
+> NOT CONNECTED HATASI <
+
+* Brave, Chrome veya Edge'den birini varsayılan tarayıcı olarak ayarlayın. (Halihazırda kullandığınız tarayıcı olmasın.)
+
+* Network3 uygulamasını devre dışı bırakın ve kapatın.
+  
+* Network3 uygulamasını tekrar açın. Acitvate ettikten sonra "View Status" linkine tıklayın. Yönlendirme sonrasında "Connected" tarayıcıda yazısını göreceksiniz.
+
+* Artık bilgilerinizle giriş yapabilirsiniz ve bunu her sunucu için yapabilirsiniz. 
+
 #
 
 > indiriken problem yaşarsanız.
