@@ -172,16 +172,16 @@ chmod +x VPSFix.sh
 
 Kurulum bu kadar. Şimdi Windows uzak Masaüstü programı ile sunucumuca bağlanalım. Sunucumuzun IP adresini giriyoruz.
 
-![rivalz1](https://github.com/mehmet0150/ubuntu-desktop-r-valz-kurulumu/assets/80669997/b7a49097-2087-46b0-aff4-d96b753c9132)
+![image](https://github.com/ruesandora/Rivalz/assets/101149671/f7d00889-b44e-48bb-b98f-cab38b3cc7a8)
 
 
 Script içine yazdığımız kullanıcı adı ve şifresini giriyoruz.
 
-![rivalz2](https://github.com/mehmet0150/ubuntu-desktop-r-valz-kurulumu/assets/80669997/a8500912-771d-4116-b40b-c08e8ce22694)
+![image](https://github.com/ruesandora/Rivalz/assets/101149671/75ad52bd-2bfe-427a-9204-b7844b8a4219)
 
 Herşey doğru bir şekilde tamamlandıysa bizi ubuntu masaüstü karşılayacak. Sol üstte ```Activities``` sekmesine basıyoruz. Eğer rıvalz dışında chrome üzerinden eklenti kuracaksanız (nodepay vb.) ```Firefox``` ile chrome indirip eklentileri yükleyebilirsiniz. Rivalz için okla gösterilen yere basıyoruz ve açılan ekranda ```Documents``` klasöründe rclient bizi bekliyoruz. Çift tıklayarak çalıştırabilirsiniz.
 
-![rivalz3](https://github.com/mehmet0150/ubuntu-desktop-r-valz-kurulumu/assets/80669997/2a0c85cf-8be3-4e11-ae50-3ae2e7bd3e54)
+![image](https://github.com/ruesandora/Rivalz/assets/101149671/6c0939f7-a592-46a2-81c7-c376b2fa2a73)
 
 **```NOT 1:``` Sunucunuzun özelliklerine göre masaüstündeki tıklamalar biraz geç algılanabilir, lütfen sabırlı olun.**
 
