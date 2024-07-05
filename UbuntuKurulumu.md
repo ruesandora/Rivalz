@@ -1,5 +1,8 @@
 # Ubuntu Desktop Rivalz Kurulumu
 
+> Repo'yu RC için katkıda bulunan [Mehmet](https://github.com/mehmet0150)'e teşekkürler <3
+
+#
 
 > Aşağıdaki komutlar ile Ubuntu sunucunuza desktop özelliği kazandırabilir.
 
