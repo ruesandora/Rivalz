@@ -70,7 +70,13 @@ nano update_token.js
 
 > Gerekli dosya içeriği [burada](https://github.com/ruesandora/Rivalz/blob/main/oasis_terminal.js)
 
-> nano oasis_terminal.js dosyası için bu adımları tekrarlayın.
+> dosyası için bu adımları tekrarlayın.
+
+```
+nano oasis_terminal.js 
+```
+
+#
 
 ### Kullanım
 Tokeni Güncelleme
