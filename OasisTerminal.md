@@ -1,4 +1,5 @@
 # Oasis Terminal
+![image](https://github.com/Dwtexe/Rivalz-TerminalAddons/assets/63106683/d27be0f4-e8cd-443a-a067-f7fe3abdb6be)
 
 Oasis Terminal'e hoş geldiniz! Bu README, Ubuntu sisteminde update_token.js ve oasis_terminal.js komut dosyalarının kurulumunu ve kullanımını adım adım açıklayacaktır.
 
