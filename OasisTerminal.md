@@ -65,7 +65,12 @@ nano update_token.js
 ```
 >[Repodaki](https://github.com/ruesandora/Rivalz/blob/main/update_token.js) update_token.js komut dosyasının içeriğini Nano düzenleyicisine kopyalayıp yapıştırın.\
 >Değişiklikleri kaydetmek ve Nano'dan çıkmak için Ctrl+X, ardından Y ve son olarak Enter tuşlarına basın.\
->oasis_terminal.js dosyası için bu bu adımları tekrarlayın.
+
+#
+
+> Gerekli dosya içeriği [burada](https://github.com/ruesandora/Rivalz/blob/main/oasis_terminal.js)
+
+> nano oasis_terminal.js dosyası için bu adımları tekrarlayın.
 
 ### Kullanım
 Tokeni Güncelleme
