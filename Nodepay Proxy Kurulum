@@ -1,0 +1,21 @@
+Bu repoda nodepay için ücretsiz proxy ile puan toplayacağız.
+https://www.webshare.io/?referral_code=4trixgn5r9kz   Buraya üyelik oluşturup free plan kullanıyoruz ve bize 10 adet ücretsiz proxy veriyor. (süresi var mı emin değilim fakat çalıştığı kadar toplayalım)
+```
+sudo apt update
+sudo apt install git
+sudo apt install python3 && sudo apt install python3-pip
+```
+Nodepay Dashboard gelelim sağ tık > Console ```localStorage.getItem('np_token');``` çıktıda Np_Token olacak onu kopyalayıp kaydedelim.
+Nodepay Dashboard gelelim sağ tık > incele > network (burada device ile başlayan seçeneklerden altta olanı seçelim true olacak) > Response tıklayıp komutlardan user_id kopyalayalım kaydedelim.
+
+Proxy listemizi ayarlayalım. Webshare sitesinden alıyoruz proxy bilgilerini.
+```nano proxy.txt```
+```http://username:pswd@IP:port```
+
+Script indirip çalıştırıyoruz.
+Sorulan sorulara gerekli yanıtları verelim.
+
+```screen -S nodepay```
+```git clone https://github.com/muzammilvmx/nodepay_b0t.git && cd nodepay_b0t && pip install -r requirements.txt && python3 main.py```
+
+Proxy dosya konumu  ```/root/proxy.txt``` (sizde farklı olabilir kontrol edelim) En son CTRL-AD ile kapatalım.
