@@ -23,7 +23,7 @@ sudo apt update
 
 Node.js ve npm'yi yüklemek için aşağıdaki komutu çalıştırın:
 ```
-sudo apt install nodejs npm
+sudo apt install nodejs npm -y
 ```
 > Yüklemeyi doğrulamak için sürümleri kontrol edin:
 ```
@@ -40,6 +40,7 @@ Komut dosyaları birkaç npm paketine dayanır. Bunları yüklemek için aşağ�
 >Komut dosyalarını depolamak istediğiniz dizine gidin.\
 >Gerekli paketleri yüklemek için aşağıdaki komutu çalıştırın:\
 ```
+screen -S oasis
 npm install axios readline-sync figlet ws
 ```
 
@@ -62,7 +63,7 @@ cd oasis
 ```
 nano update_token.js
 ```
->Repodaki update_token.js komut dosyasının içeriğini Nano düzenleyicisine kopyalayıp yapıştırın.\
+>[Repodaki](https://github.com/ruesandora/Rivalz/blob/main/update_token.js) update_token.js komut dosyasının içeriğini Nano düzenleyicisine kopyalayıp yapıştırın.\
 >Değişiklikleri kaydetmek ve Nano'dan çıkmak için Ctrl+X, ardından Y ve son olarak Enter tuşlarına basın.\
 >oasis_terminal.js dosyası için bu bu adımları tekrarlayın.
 
