@@ -11,7 +11,7 @@ npm
 
 ## Oasis.ai hesabınız yoksa aşağıdaki linkten açın:
 
-[KAYIT OL](https://r.oasis.ai/549489468beaa725)
+[KAYIT OL](https://github.com/ruesandora/Rivalz/blob/main/Yanc%C4%B1klar.md#oasisai)
 
 ### Node.js ve npm'yi Yükleme
 
