@@ -15,7 +15,7 @@ npm
 
 ### Scripti Çalıştıralım
 ```
-wget https://raw.githubusercontent.com/enzifiri/Rivalz/main/oasis.sh
+wget https://raw.githubusercontent.com/ruesandora/Rivalz/main/oasis.sh
 ```
 >screen oluşturalım:
 ```
