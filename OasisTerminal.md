@@ -17,6 +17,11 @@ npm
 ```
 wget https://raw.githubusercontent.com/ruesandora/Rivalz/main/oasis.sh
 ```
+> izinleri verelim ve çalıştıralım.
+```
+chmod +x oasis.sh
+./oasis.sh
+```
 >screen oluşturalım:
 ```
 screen -S oasis
