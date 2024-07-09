@@ -33,7 +33,7 @@ Kurulum başarılı olduysa aşağıdaki gibi bir ekran göreceksiniz
 
 ![image](https://github.com/utkubayri/Rivalz/assets/83476028/b69b4c3a-64a8-4e02-bb9e-56a12aa07f76)
 
-CTRL + X Y Enter ile screenden çıkabilirsiniz
+CTRL + A + D Enter ile screenden çıkabilirsiniz
 
 **Rivalz Dashboarddan client'i validate etmeyi unutmayın**
 
