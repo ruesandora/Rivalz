@@ -14,6 +14,7 @@
 
 > Tüm sunucularımızın etinden kemiğinden faydalanmak için Rivalz, Nodepay, OasisAI, Network3 kurabilirsiniz. [Burada](https://github.com/ruesandora/Rivalz/blob/main/Yanc%C4%B1klar.md) mevcut.
 
+
 #
 
 > Öncelikle root klasöründe yeni bir klasör oluşturalım:
@@ -188,3 +189,13 @@ Herşey doğru bir şekilde tamamlandıysa bizi ubuntu masaüstü karşılayacak
 **```NOT 2:``` Masaüstünde yaptığınız tüm işlemler sunucunun tamamında etkili olabileceği ve içerisinde çalışan diğer nodelara etki edebileceği için lütfen sadece gerekli işlemleri yapın.**
 
 **```NOT 3:``` Kurulumla ilgili tüm sorumluluk kuran kişiye aittir. Oluşabilecek herhangi bir hatadan veya kayıptan kuran kişi tamamen kendisi sorumludur.**
+
+**```NOT 4:``` Kurulumdan sonra uzak masaüstüne bağlanırken sorun yaşayanlar aşağıdaki kodu deneyebilirler.(Login failed ve siyah ekranda kalma problemleri)**
+```ruby
+sysctl -a | grep disable_ipv6
+```
+Yukarıdaki kodun çıktısında **net.ipv6.conf.lo.disable_ipv6** değeri **1** olarak dönüyorsa aşağıdaki kodu çalıştırın.
+```ruby
+sysctl -w net.ipv6.conf.lo.disable_ipv6=0
+```
+Şimdi bağlanmayı tekrar deneyebilirsiniz.
