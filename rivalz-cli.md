@@ -24,12 +24,12 @@ screen -S rivalz
 
 CLI yüklemek için komutu çalıştıralım
 ```bash
-npm i -g rivalz-node-cli
+sudo npm i -g rivalz-node-cli
 ```
 Rivalz'i çalıştırmak için komutu kullanalım ve EVM adresimizi ne kadar cpu ve ram kullanmak istediğimizi yazalım ve ayrıca depolama olarak ne kadar paylaşmak istediğimizi de girelim. Depolamada max gösterdiği total depolama olduğu için ne kadar boş yerimiz olduğunu göz önünde bulundurup yazalım.
 
 ```
-rivalz run
+sudo rivalz run
 ```
 
 Kurulum başarılı olduysa aşağıdaki gibi bir ekran göreceksiniz
