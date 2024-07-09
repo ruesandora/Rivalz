@@ -4,15 +4,12 @@ Bu kılavuz, Rivalz istemcisini indirmek ve çalıştırmak için talimatlar ve 
 
 ## Gereklilikler
 
-- Node.js version 20.0.0
-- Yarn or NPM
+```
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+source ~/.bashrc
 
-Node.js ve npm versiyonlarını kontrol etmek için
-```
-node -v
-```
-```
-npm -v
+nvm install 20.0.0
+nvm use 20.0.0
 ```
 
 ## Yüklemeler
