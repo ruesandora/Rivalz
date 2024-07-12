@@ -41,7 +41,7 @@ Validate edilemeyen ve dashboard bozuk olanlar için bu linki yeni sekmede cüzd
 
 <img width="210" alt="Ekran Resmi 2024-07-12 23 24 11" src="https://github.com/user-attachments/assets/6f6feeef-7b4b-43e4-ad0f-a1460e087d59">
 
-
+```
 https://be.rivalz.ai/api-v1/orbit-db/verify-orbit-db/<cüzdan-adresi>
-
+```
 Bol puan kasmalar
