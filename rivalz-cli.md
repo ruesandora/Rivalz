@@ -33,8 +33,17 @@ Kurulum başarılı olduysa aşağıdaki gibi bir ekran göreceksiniz
 
 ![image](https://github.com/utkubayri/Rivalz/assets/83476028/b69b4c3a-64a8-4e02-bb9e-56a12aa07f76)
 
-CTRL + X Y Enter ile screenden çıkabilirsiniz
+CTRL + A D ile screenden çıkabilirsiniz
 
 **Rivalz Dashboarddan client'i validate etmeyi unutmayın**
+
+## VALİDATE VE DASHBOARD SORUNU İÇİN
+Validate edilemeyen ve dashboard bozuk olanlar için bu linki yeni sekmede cüzdan adresinizi slash'den sonrasına ekleyip enter yaparsanız validate etmiş olursunuz. Daha sonrasıda Rivalz dashboard'a dönüp f5 atarsanız dashboard düzelmiş olmalıdır. Not: Modified Count yeni validate edilen node sayısını verir.
+
+```
+https://be.rivalz.ai/api-v1/orbit-db/verify-orbit-db/<cüzdan-adresi>
+```
+
+<img width="210" alt="Ekran Resmi 2024-07-12 23 24 11" src="https://github.com/user-attachments/assets/6f6feeef-7b4b-43e4-ad0f-a1460e087d59">
 
 Bol puan kasmalar
