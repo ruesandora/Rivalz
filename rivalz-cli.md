@@ -37,11 +37,13 @@ CTRL + A D Enter ile screenden çıkabilirsiniz
 
 **Rivalz Dashboarddan client'i validate etmeyi unutmayın**
 
+## VALİDATE VE DASHBOARD SORUNU İÇİN
 Validate edilemeyen ve dashboard bozuk olanlar için bu linki yeni sekmede cüzdan adresinizi slash'den sonrasına ekleyip enter yaparsanız validate etmiş olursunuz. Daha sonrasıda Rivalz dashboard'a dönüp f5 atarsanız dashboard düzelmiş olmalıdır. Not: Modified Count yeni validate edilen node sayısını verir.
-
-<img width="210" alt="Ekran Resmi 2024-07-12 23 24 11" src="https://github.com/user-attachments/assets/6f6feeef-7b4b-43e4-ad0f-a1460e087d59">
 
 ```
 https://be.rivalz.ai/api-v1/orbit-db/verify-orbit-db/<cüzdan-adresi>
 ```
+
+<img width="210" alt="Ekran Resmi 2024-07-12 23 24 11" src="https://github.com/user-attachments/assets/6f6feeef-7b4b-43e4-ad0f-a1460e087d59">
+
 Bol puan kasmalar
