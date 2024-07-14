@@ -39,6 +39,7 @@
       sudo apt-get install net-tools
       /sbin/ifconfig eth0 up
      ```
+   - wg0 hatası alanlar kurulumu baştan yapsın o zaman hata kalkıyor 
 ### Dashboard'a Erişme
 
 
