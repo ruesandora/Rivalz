@@ -55,3 +55,7 @@
 > Şu an node çalışır durumda
 
 <img width="1499" alt="Ekran Resmi 2024-07-16 18 22 14" src="https://github.com/user-attachments/assets/c9afde07-0d2d-40c8-a314-61e12be65484">
+
+#
+
+> tokenomics: https://www.koii.network/whitepaper.pdf
