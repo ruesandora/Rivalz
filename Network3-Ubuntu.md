@@ -53,6 +53,12 @@
      ```
    - `xx.xx.xx.xx` kısmını Ubuntu makinenizin gerçek IP adresiyle değiştirin.
 
+Sitede "Current Node" sağ tarafında + butona basınca bizden private key isteyecek şimdi onu alacağız. Terminale dönüyoruz.
+ ```bash
+sudo bash manager.sh key
+ ```
+Private keyimizi aldık tarayıcıya dönüp yapıştıralım. Kurulumu tamamlıyoruz.
+
 Bu URL, diğer makineden Ubuntu node'unun dashboard'ına erişim sağlar.
 
 ---
