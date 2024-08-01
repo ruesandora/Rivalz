@@ -29,3 +29,6 @@ dailyClaim();
 #
 
 ![image](https://github.com/ruesandora/Rivalz/assets/101149671/b484022a-82b2-4d92-a2d0-b5be37db345d)
+
+Warning: Don’t paste code into the DevTools Console that you don’t understand or haven’t reviewed yourself. This could allow attackers to steal your identity or take control of your computer. Please type ‘allow pasting’ below and hit Enter to allow pasting.Understand this warning
+hatası alanlar consola allow pasting yazarak hatayı geçebilir.
