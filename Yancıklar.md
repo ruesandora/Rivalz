@@ -124,3 +124,7 @@ sudo bash manager.sh down
 
 > [Eclipse](https://x.com/blockmesh_xyz/status/1820914248731480442) tarafından destekleniyor.
 
+#
+
+> Tüm yancıkların ref linkini paylaşabileceğiniz yer için [burayı](https://t.me/+sTSzRlNWIpNiNjE0) kullanabilirsiniz.
+
