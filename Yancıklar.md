@@ -110,12 +110,6 @@ sudo bash manager.sh down
 
 #
 
-## Blockmesh
-
-> [Hesap](https://app.blockmesh.xyz/register?invite_code=3e203584-b216-45f0-9005-eff31376a657) oluşturduktan sonra sunucularda [extension](https://chromewebstore.google.com/detail/blockmesh-network/obfhoiefijlolgdmphcekifedagnkfjp)'u çalıştırın.
-
-> [Eclipse](https://x.com/blockmesh_xyz/status/1820914248731480442) tarafından destekleniyor.
-
 > indiriken problem yaşarsanız.
 
 > Windows ayarlarından bunu açın:
@@ -123,4 +117,10 @@ sudo bash manager.sh down
 ![image](https://github.com/ruesandora/Rivalz/assets/101149671/97a811bc-a6c0-406f-8e80-994f9b55cd56)
 
 </details>
+
+## Blockmesh
+
+> [Hesap](https://app.blockmesh.xyz/register?invite_code=3e203584-b216-45f0-9005-eff31376a657) oluşturduktan sonra sunucularda [extension](https://chromewebstore.google.com/detail/blockmesh-network/obfhoiefijlolgdmphcekifedagnkfjp)'u çalıştırın.
+
+> [Eclipse](https://x.com/blockmesh_xyz/status/1820914248731480442) tarafından destekleniyor.
 
