@@ -4,13 +4,15 @@
 
 #
 
-> 3 Projemiz var:
+> 4 Projemiz var:
 
 > [Nodepay](https://app.nodepay.ai/register?ref=pvAqqadUHkSZcrP) 
 
 > [OasisAI](https://r.oasis.ai/rues)
 
 > [Network3](https://account.network3.ai/register_page?rc=6ef6d1a8)
+
+> [BlockMesh](https://app.blockmesh.xyz/register?invite_code=3e203584-b216-45f0-9005-eff31376a657) 
 
 #
 
@@ -107,6 +109,12 @@ sudo bash manager.sh down
 * Artık bilgilerinizle giriş yapabilirsiniz ve bunu her sunucu için yapabilirsiniz. 
 
 #
+
+## Blockmesh
+
+> [Hesap](https://app.blockmesh.xyz/register?invite_code=3e203584-b216-45f0-9005-eff31376a657) oluşturduktan sonra sunucularda [extension](https://chromewebstore.google.com/detail/blockmesh-network/obfhoiefijlolgdmphcekifedagnkfjp)'u çalıştırın.
+
+> [Eclipse](https://x.com/blockmesh_xyz/status/1820914248731480442) tarafından destekleniyor.
 
 > indiriken problem yaşarsanız.
 
