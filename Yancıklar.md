@@ -1,10 +1,10 @@
-> Hem rivalz çalışırken hem de yanında birden fazla proje çalıştırabilirsiniz.
+![image](https://github.com/user-attachments/assets/cf4f2cd7-08b5-4b46-9693-90b0b57ceb5b)> Hem rivalz çalışırken hem de yanında birden fazla proje çalıştırabilirsiniz.
 
 > Bunun için rivalz gerekmez, başka sunucuya da yapabilirsiniz veya bilgisayara - sadece alternatif.
 
 #
 
-> 4 Projemiz var:
+> 5 Projemiz var:
 
 > [Nodepay](https://app.nodepay.ai/register?ref=pvAqqadUHkSZcrP) 
 
@@ -12,7 +12,9 @@
 
 > [Network3](https://account.network3.ai/register_page?rc=6ef6d1a8)
 
-> [BlockMesh](https://app.blockmesh.xyz/register?invite_code=3e203584-b216-45f0-9005-eff31376a657) 
+> [BlockMesh](https://app.blockmesh.xyz/register?invite_code=3e203584-b216-45f0-9005-eff31376a657)
+
+> Dawn
 
 #
 
@@ -123,6 +125,20 @@ sudo bash manager.sh down
 > [Hesap](https://app.blockmesh.xyz/register?invite_code=3e203584-b216-45f0-9005-eff31376a657) oluşturduktan sonra sunucularda [extension](https://chromewebstore.google.com/detail/blockmesh-network/obfhoiefijlolgdmphcekifedagnkfjp)'u çalıştırın.
 
 > [Eclipse](https://x.com/blockmesh_xyz/status/1820914248731480442) tarafından destekleniyor.
+
+#
+
+## Dawn
+
+> Kendileri [18m$](https://x.com/dawninternet/status/1821155421006307342) fon topladı, başta [Solana](https://x.com/solana/status/1821171459999309939) olmak üzere markette ismini sıkca duyduğumuz isimlerle ön plandalar.
+
+> [Buradan](https://chromewebstore.google.com/detail/dawn-validator-chrome-ext/fpdkjdnhkakefebpekbdhillbhonfjjp?authuser=0&hl=en) extension'u indirip hesap açıp maili doğruluyoruz.
+
+> Hesap açarken kod kullanmak isterseniz: `b7t69p`
+
+> Kodu kullandıktan sonra boost rewards diyerek 3x5000 rewardsı da almayı unutmayın.
+
+> Bu proje için detaylı kurulum (Windows gibi) gelecektir yakında.
 
 #
 
