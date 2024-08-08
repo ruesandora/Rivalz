@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/cf4f2cd7-08b5-4b46-9693-90b0b57ceb5b)> Hem rivalz çalışırken hem de yanında birden fazla proje çalıştırabilirsiniz.
+> Hem rivalz çalışırken hem de yanında birden fazla proje çalıştırabilirsiniz.
 
 > Bunun için rivalz gerekmez, başka sunucuya da yapabilirsiniz veya bilgisayara - sadece alternatif.
 
