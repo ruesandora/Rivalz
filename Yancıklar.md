@@ -14,7 +14,7 @@
 
 > [BlockMesh](https://app.blockmesh.xyz/register?invite_code=3e203584-b216-45f0-9005-eff31376a657)
 
-> Dawn
+> [Dawn](https://github.com/ruesandora/Rivalz/blob/main/Yanc%C4%B1klar.md#dawn)
 
 #
 
