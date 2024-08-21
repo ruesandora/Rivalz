@@ -144,6 +144,8 @@ sudo bash manager.sh down
 
 #
 
+## Functor Network
+
 > [Buradan](https://node.securitylabs.xyz/?from=extension&type=signin&referralCode=cm03npokdxpgzl61a68z25iom) bir hesap oluşturuyoruz
 
 > Davetiye koda ihtiyacınız varsa: `cm03npokdxpgzl61a68z25iom`
