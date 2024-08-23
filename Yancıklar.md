@@ -4,7 +4,7 @@
 
 #
 
-> 6 Projemiz var:
+> 7 Projemiz var:
 
 > [Nodepay](https://app.nodepay.ai/register?ref=pvAqqadUHkSZcrP) 
 
@@ -17,6 +17,8 @@
 > [Dawn](https://github.com/ruesandora/Rivalz/blob/main/Yanc%C4%B1klar.md#dawn)
 
 > [Functor Network](https://node.securitylabs.xyz/?from=extension&type=signin&referralCode=cm03npokdxpgzl61a68z25iom)
+
+> [Block Joker](https://blockjoker.org/login?invite_code=bQ1f_sXnFTgbF1C9ZZwkivBJARYUXuL4Htc5ibHUAe4=)
 
 #
 
@@ -155,6 +157,16 @@ sudo bash manager.sh down
 > Tüm sunucularıma kuruyorum.
 
 > İlgilenebilirsem ubuntu kurulumunuda yazıp [telegramda](https://t.me/RuesAnnouncement) paylaşacağım.
+
+#
+
+## Block Joker
+
+> [Buradan](https://blockjoker.org/login?invite_code=bQ1f_sXnFTgbF1C9ZZwkivBJARYUXuL4Htc5ibHUAe4=) bir hesap oluşturup sunucularımın içersinde start mining diyorum.
+
+> Hiç bir beklentim yok.
+
+> Donanım olarak ne tüketecek bilmiyorum, uymazssa kapatabilirsiniz.
 
 #
 
