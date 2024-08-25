@@ -4,7 +4,7 @@
 
 #
 
-> 5 Projemiz var:
+> 7 Projemiz var:
 
 > [Nodepay](https://app.nodepay.ai/register?ref=pvAqqadUHkSZcrP) 
 
@@ -15,6 +15,10 @@
 > [BlockMesh](https://app.blockmesh.xyz/register?invite_code=3e203584-b216-45f0-9005-eff31376a657)
 
 > [Dawn](https://github.com/ruesandora/Rivalz/blob/main/Yanc%C4%B1klar.md#dawn)
+
+> [Functor Network](https://node.securitylabs.xyz/?from=extension&type=signin&referralCode=cm03npokdxpgzl61a68z25iom)
+
+> [Block Joker](https://blockjoker.org/login?invite_code=bQ1f_sXnFTgbF1C9ZZwkivBJARYUXuL4Htc5ibHUAe4=)
 
 #
 
@@ -139,6 +143,30 @@ sudo bash manager.sh down
 > Kodu kullandıktan sonra boost rewards diyerek 3x5000 rewardsı da almayı unutmayın.
 
 > Bu proje için detaylı kurulum (Windows gibi) gelecektir yakında.
+
+#
+
+## Functor Network
+
+> [Buradan](https://node.securitylabs.xyz/?from=extension&type=signin&referralCode=cm03npokdxpgzl61a68z25iom) bir hesap oluşturuyoruz
+
+> Davetiye koda ihtiyacınız varsa: `cm03npokdxpgzl61a68z25iom`
+
+> Akabinde cüzdan/mail kurulumunu tamamladıktan sonra check'in yapıyoruz.
+
+> Tüm sunucularıma kuruyorum.
+
+> İlgilenebilirsem ubuntu kurulumunuda yazıp [telegramda](https://t.me/RuesAnnouncement) paylaşacağım.
+
+#
+
+## Block Joker
+
+> [Buradan](https://blockjoker.org/login?invite_code=bQ1f_sXnFTgbF1C9ZZwkivBJARYUXuL4Htc5ibHUAe4=) bir hesap oluşturup sunucularımın içersinde start mining diyorum.
+
+> Hiç bir beklentim yok.
+
+> Donanım olarak ne tüketecek bilmiyorum, uymazssa kapatabilirsiniz.
 
 #
 
