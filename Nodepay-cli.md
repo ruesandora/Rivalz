@@ -49,3 +49,10 @@
 
 Son komutta sizden np token isteyecek, nodepay dashboard a girip F12 yapıp şu kırmızı ile işaretlediğim yerden alın (np token limiti 14 gün maalesef yani 14 günde bir yenilemeniz gerekiyor)
     ![np](https://github.com/user-attachments/assets/731dd642-46f2-41f4-9de5-60df7e34a1bf)
+    
+
+Eğer 8. adımda `No module named loguru` adında bir hata alıyorsanız bu paketi yükleyip tekrar deneyin : 
+
+```bash
+pip install loguru --break-system-packages
+```
