@@ -3,7 +3,7 @@ const path = require('path');
 
 let database = {
   version: 1,
-  token: "5d1e0e6517978a8379d6034437d7e714b3a489f649c11b05931a7a2431bde3ed",
+  token: "<your-token>",
   stats: {
     creditsEarned: 0,
     networkPerformance: 0,
