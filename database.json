@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "token": "KENDİ AUTH TOKENİNİZ",
+  "stats": {
+    "creditsEarned": 130171,
+    "networkPerformance": 0.4,
+    "solvedTasks": 0,
+    "status": "offline",
+    "totalEarnings": 0,
+    "totalUptime": 1152420
+  },
+  "models": [],
+  "schedule": {
+    "days": {},
+    "mode": "all",
+    "startTime": "10:00",
+    "stopTime": "16:00",
+    "usage": "maximum"
+  },
+  "system": {}
+}
