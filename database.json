@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "token": "5d1e0e6517978a8379d6034437d7e714b3a489f649c11b05931a7a2431bde3ed",
+  "stats": {
+    "creditsEarned": 37508,
+    "networkPerformance": 0.4,
+    "solvedTasks": 0,
+    "status": "active",
+    "totalEarnings": 0,
+    "totalUptime": 1350300
+  },
+  "models": [],
+  "schedule": {
+    "days": {},
+    "mode": "all",
+    "startTime": "10:00",
+    "stopTime": "16:00",
+    "usage": "maximum"
+  },
+  "system": {}
+}
