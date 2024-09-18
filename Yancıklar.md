@@ -4,7 +4,7 @@
 
 #
 
-> 7 Projemiz var:
+> 8 Projemiz var:
 
 > [Nodepay](https://app.nodepay.ai/register?ref=pvAqqadUHkSZcrP) 
 
@@ -19,6 +19,8 @@
 > [Functor Network](https://node.securitylabs.xyz/?from=extension&type=signin&referralCode=cm03npokdxpgzl61a68z25iom)
 
 > [Block Joker](https://blockjoker.org/login?invite_code=bQ1f_sXnFTgbF1C9ZZwkivBJARYUXuL4Htc5ibHUAe4=)
+
+> [Gradient](https://app.gradient.network/signup?code=XBC1WY)
 
 #
 
@@ -167,6 +169,16 @@ sudo bash manager.sh down
 > Hiç bir beklentim yok.
 
 > Donanım olarak ne tüketecek bilmiyorum, uymazssa kapatabilirsiniz.
+
+#
+
+## Gradient
+
+> [Buradan](https://app.gradient.network/signup?code=XBC1WY) bir hesap oluşturuyoruz
+
+> [Burada](https://chromewebstore.google.com/detail/gradient-sentry-node/caacbgbklghmpodbdafajbgdnegacfmo?pli=1) extension'ı kuruyoruz.
+
+> İyi bir fırsat bundan dolayı tüm sunucularımda kuracağım.
 
 #
 
