@@ -280,7 +280,7 @@ chmod +x rClient-latest.AppImage
 
 > Rivalz hesap açıyoruz [buradan](https://rivalz.ai?r=Ruesandora0)
 
-> Burada cüzdan, twitter ve discord her şey bağlayın.
+> Burada cüzdan, x (formerly twitter) ve discord her şey bağlayın.
 
 #
 
