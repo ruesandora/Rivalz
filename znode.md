@@ -2,7 +2,7 @@
 
 ## Gereklilikler
 
-Node.js ce npm kurulumu. Yüklü değilse kurulum yapın.
+Node.js ve npm kurulumu. Yüklü değilse kurulum yapın.
 
 ```
 curl -sL https://deb.nodesource.com/setup_20.x -o /tmp/nodesource_setup.sh
