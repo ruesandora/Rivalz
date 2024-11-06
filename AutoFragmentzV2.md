@@ -54,7 +54,7 @@ Linux veya Mac işletim sisteminde kurulum ve çalışma için aşağıdaki scri
     chmod +x install_and_run.sh  # Script'e çalıştırma izni ver
     ./install_and_run.sh  # Script'i çalıştır
     ```
-5. Bot çalışmaya başladıktan sonra screen'den `ctrl` + `c` ile çıkış yapın.
+5. Bot çalışmaya başladıktan sonra screen'den `ctrl` + `a` + `d` ile çıkış yapın.
 
 6. Botun çalışması için gerekli olan **Rivalz test ethereumlarını** cüzdanınıza sıklıkla almayı unutmayın.
 
