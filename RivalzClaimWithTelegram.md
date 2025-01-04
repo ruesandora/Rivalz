@@ -19,6 +19,12 @@ Telegram'da **[@BotFather](https://t.me/botfather)**'ı açın ve aşağıdaki a
 ### **2.1 Node.js Kurulumu**
 Bilgisayarınızda Node.js'in yüklü olduğundan emin olun. Node.js'i [resmi web sitesi](https://nodejs.org) üzerinden indirip kurabilirsiniz.
 
+#### **Linux Kullanıcıları İçin:**
+```bash
+sudo apt update
+sudo apt install -y nodejs npm
+```
+
 ### **2.2 Proje Dizini Oluşturma**
 Bir terminal veya komut istemcisi açın ve bir proje dizini oluşturun:
 ```bash
@@ -38,6 +44,13 @@ npm install dotenv node-telegram-bot-api ethers
 
 ### **3.1 `index.js` Dosyasını Oluşturma**
 Proje dizininde `index.js` adında bir dosya oluşturun ve aşağıdaki kodları içine yapıştırın:
+
+#### **Linux Komutlarıyla Dosya Oluşturma**
+```bash
+touch index.js
+nano index.js
+```
+Nano editöründe aşağıdaki kodları yapıştırın ve kaydedin (CTRL + O, ardından ENTER, CTRL + X):
 
 ```javascript
 import dotenv from "dotenv";
@@ -105,6 +118,7 @@ bot.onText(/\/claim (\d+)/, (msg, match) => {
     sendClaimTransactions(chatId, count);
 });
 
+// Kullanıcı komut beklenirken bilgi mesajı
 console.log("Bot çalışıyor, Telegram üzerinden komut bekleniyor...");
 ```
 
@@ -113,7 +127,15 @@ console.log("Bot çalışıyor, Telegram üzerinden komut bekleniyor...");
 ## **Adım 4: Çevre Değişkenlerini Ayarlama**
 
 ### **4.1 `.env` Dosyası Oluşturma**
-Proje dizininde bir `.env` dosyası oluşturun ve aşağıdaki gibi doldurun. Rivalz için contract adresi ve rpc bilgileri aşağıdaki gibi:
+Proje dizininde bir `.env` dosyası oluşturun ve aşağıdaki gibi doldurun:
+
+#### **Linux Komutlarıyla `.env` Dosyası Oluşturma**
+```bash
+touch .env
+nano .env
+```
+Nano editöründe aşağıdaki bilgileri yapıştırın ve kaydedin:
+
 ```env
 TELEGRAM_BOT_TOKEN=YOUR_TELEGRAM_BOT_TOKEN
 PRIVATE_KEY=YOUR_WALLET_PRIVATE_KEY
