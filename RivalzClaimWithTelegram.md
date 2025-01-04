@@ -105,13 +105,13 @@ async function sendClaimTransactions(chatId, count = 20) {
     for (let i = 1; i <= count; i++) {
         try {
             bot.sendMessage(chatId, `(${i}/${count}) Claim işlemi başlatılıyor...`);
-            const tx = await contract.claim();
+            const tx = await contract.claim({ gasLimit: 1000000 });
             bot.sendMessage(chatId, `(${i}/${count}) İşlem gönderildi, transaction hash: ${tx.hash}`);
 
             const receipt = await tx.wait();
             bot.sendMessage(
                 chatId,
-                `(${i}/${count}) İşlem tamamlandı:\n- Transaction Hash: ${receipt.transactionHash}\n- Block Number: ${receipt.blockNumber}\n- Gas Used: ${receipt.gasUsed}`
+                `(${i}/${count}) İşlem tamamlandı:\n- Transaction Hash: ${tx.hash}\n- Block Number: ${receipt.blockNumber}\n- Gas Used: ${receipt.gasUsed}`
             );
 
             // 5 saniye bekleme
@@ -174,6 +174,26 @@ CONTRACT_ADDRESS=0xF0a66d18b46D4D5dd9947914ab3B2DDbdC19C2C0
 ---
 
 ## **Adım 5: Botu Çalıştırma**
+
+### **5.1 `package.json` Dosyasını Düzenleme**
+Botun düzgün çalışabilmesi için `package.json` dosyanıza aşağıdaki satırı ekleyin veya dosya yoksa oluşturun:
+
+#### **Windows ve Linux için:**
+```bash
+touch package.json
+nano package.json
+```
+Aşağıdaki içeriği yapıştırın:
+
+```json
+{
+  "type": "module"
+}
+```
+
+Kaydedip kapatın (CTRL + O, ardından ENTER, CTRL + X).
+
+### **5.2 Botu Çalıştırma**
 
 #### a. **Windows için:**
 1. Komut istemcisinde aşağıdaki komutu çalıştırın:
