@@ -1,4 +1,4 @@
-# ClaimBot: Telegram ile Blockchain Claim İşlemi Otomasyonu
+# ClaimBot: Telegram ile Claim İşlemi
 
 ClaimBot, kullanıcıların Telegram üzerinden bir komut göndererek blockchain üzerindeki bir smart contract ile **claim** işlemlerini kolayca otomatikleştirmelerine olanak tanır. Bu rehberde, botu sıfırdan kurmak ve çalıştırmak için gereken tüm adımlar detaylı bir şekilde açıklanmıştır.
 
@@ -104,6 +104,8 @@ bot.onText(/\/claim (\d+)/, (msg, match) => {
     bot.sendMessage(chatId, `${count} adet claim işlemi başlatılıyor...`);
     sendClaimTransactions(chatId, count);
 });
+
+console.log("Bot çalışıyor, Telegram üzerinden komut bekleniyor...");
 ```
 
 ---
@@ -111,7 +113,7 @@ bot.onText(/\/claim (\d+)/, (msg, match) => {
 ## **Adım 4: Çevre Değişkenlerini Ayarlama**
 
 ### **4.1 `.env` Dosyası Oluşturma**
-Proje dizininde bir `.env` dosyası oluşturun ve aşağıdaki gibi doldurun:
+Proje dizininde bir `.env` dosyası oluşturun ve aşağıdaki gibi doldurun. Rivalz için contract adresi ve rpc bilgileri aşağıdaki gibi:
 ```env
 TELEGRAM_BOT_TOKEN=YOUR_TELEGRAM_BOT_TOKEN
 PRIVATE_KEY=YOUR_WALLET_PRIVATE_KEY
