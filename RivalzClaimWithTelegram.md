@@ -116,8 +116,8 @@ async function sendClaimTransactions(chatId, count = 20) {
 
             // 5 saniye bekleme
             if (i < count) {
-                bot.sendMessage(chatId, "Bir sonraki işlem için 5 saniye bekleniyor...");
-                await new Promise((resolve) => setTimeout(resolve, 5000));
+                bot.sendMessage(chatId, "Bir sonraki işlem için 30 saniye bekleniyor...");
+                await new Promise((resolve) => setTimeout(resolve, 30000));
             }
         } catch (error) {
             bot.sendMessage(chatId, `(${i}/${count}) Claim işlemi sırasında hata oluştu: ${error.message}`);
