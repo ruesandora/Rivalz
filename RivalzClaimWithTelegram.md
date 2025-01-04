@@ -75,18 +75,16 @@ import dotenv from "dotenv";
 import TelegramBot from "node-telegram-bot-api";
 import { ethers } from "ethers";
 
-// Çevre değişkenlerini yükle
+// Çevre değişkenleri
 dotenv.config();
-
-// Telegram bot oluştur
-const bot = new TelegramBot(process.env.TELEGRAM_BOT_TOKEN, { polling: true });
-
-// RPC ve cüzdan bilgileri
 const privateKey = process.env.PRIVATE_KEY;
 const rpcUrl = process.env.RPC_URL;
 const contractAddress = process.env.CONTRACT_ADDRESS;
 const provider = new ethers.JsonRpcProvider(rpcUrl);
 const wallet = new ethers.Wallet(privateKey, provider);
+
+// Telegram bot
+const bot = new TelegramBot(process.env.TELEGRAM_BOT_TOKEN, { polling: true });
 
 const abi = [
     {
@@ -100,12 +98,14 @@ const abi = [
 // SmartContract
 const contract = new ethers.Contract(contractAddress, abi, wallet);
 
-// Claim işlemi
+// Claim işlemi default 20 kere
 async function sendClaimTransactions(chatId, count = 20) {
     for (let i = 1; i <= count; i++) {
         try {
+
             bot.sendMessage(chatId, `(${i}/${count}) Claim işlemi başlatılıyor...`);
-            const tx = await contract.claim({ gasLimit: 1000000 });
+            const tx = await contract.claim( { gasLimit: 1000000 } );
+            
             bot.sendMessage(chatId, `(${i}/${count}) İşlem gönderildi, transaction hash: ${tx.hash}`);
 
             const receipt = await tx.wait();
@@ -126,17 +126,34 @@ async function sendClaimTransactions(chatId, count = 20) {
     }
 
     bot.sendMessage(chatId, "Tüm işlemler tamamlandı!");
+    scheduleReminder(chatId);
+}
+
+// 12 saatlik tetikleyici
+let reminderTimeout;
+
+// 12 saatlik hatırlatma
+function scheduleReminder(chatId) {
+    if (reminderTimeout) {
+        clearTimeout(reminderTimeout);
+    }
+
+    reminderTimeout = setTimeout(() => {
+        bot.sendMessage(
+            chatId,
+            "12 saat geçti! Yeni bir claim denemesi yapmak ister misiniz? `/claim <adet>` komutunu göndererek işlemi başlatabilirsiniz."
+        );
+    }, 12 * 60 * 60 * 1000); // 12 saat
 }
 
 // Bot mesajlarını dinleme
 bot.onText(/\/claim (\d+)/, (msg, match) => {
     const chatId = msg.chat.id;
-    const count = parseInt(match[1], 10) || 20;
+    const count = parseInt(match[1], 10) || 20; // Kullanıcı sayıyı belirtmezse 20 al
     bot.sendMessage(chatId, `${count} adet claim işlemi başlatılıyor...`);
     sendClaimTransactions(chatId, count);
 });
 
-// Kullanıcı komut beklenirken bilgi mesajı
 console.log("Bot çalışıyor, Telegram üzerinden komut bekleniyor...");
 ```
 
