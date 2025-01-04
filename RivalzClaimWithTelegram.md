@@ -17,23 +17,40 @@ Telegram'da **[@BotFather](https://t.me/botfather)**'ı açın ve aşağıdaki a
 ## **Adım 2: Gerekli Yazılımları Kurma**
 
 ### **2.1 Node.js Kurulumu**
-Bilgisayarınızda Node.js'in yüklü olduğundan emin olun. Node.js'i [resmi web sitesi](https://nodejs.org) üzerinden indirip kurabilirsiniz.
 
-#### **Linux Kullanıcıları İçin:**
+#### a. **Windows için:**
+Node.js'i [resmi web sitesi](https://nodejs.org) üzerinden indirip kurabilirsiniz.
+
+#### b. **Linux için:**
 ```bash
 sudo apt update
 sudo apt install -y nodejs npm
 ```
 
 ### **2.2 Proje Dizini Oluşturma**
-Bir terminal veya komut istemcisi açın ve bir proje dizini oluşturun:
+
+#### a. **Windows için:**
+Komut istemcisinde aşağıdaki komutları çalıştırın:
+```cmd
+mkdir claim-bot
+cd claim-bot
+```
+
+#### b. **Linux için:**
+Terminalde aşağıdaki komutları çalıştırın:
 ```bash
 mkdir claim-bot
 cd claim-bot
 ```
 
 ### **2.3 Gerekli Paketleri Kurma**
-Aşağıdaki komutu çalıştırarak gerekli npm paketlerini kurun:
+
+#### a. **Windows için:**
+```cmd
+npm install dotenv node-telegram-bot-api ethers
+```
+
+#### b. **Linux için:**
 ```bash
 npm install dotenv node-telegram-bot-api ethers
 ```
@@ -43,9 +60,17 @@ npm install dotenv node-telegram-bot-api ethers
 ## **Adım 3: Kod Dosyasını Hazırlama**
 
 ### **3.1 `index.js` Dosyasını Oluşturma**
-Proje dizininde `index.js` adında bir dosya oluşturun ve aşağıdaki kodları içine yapıştırın:
 
-#### **Linux Komutlarıyla Dosya Oluşturma**
+#### a. **Windows için:**
+Komut istemcisinde aşağıdaki komutları çalıştırarak `index.js` dosyasını oluşturun:
+```cmd
+echo.> index.js
+notepad index.js
+```
+Notepad'de açılan dosyaya aşağıdaki kodları yapıştırın ve kaydedin:
+
+#### b. **Linux için:**
+Terminalde aşağıdaki komutları çalıştırarak `index.js` dosyasını oluşturun:
 ```bash
 touch index.js
 nano index.js
@@ -127,9 +152,17 @@ console.log("Bot çalışıyor, Telegram üzerinden komut bekleniyor...");
 ## **Adım 4: Çevre Değişkenlerini Ayarlama**
 
 ### **4.1 `.env` Dosyası Oluşturma**
-Proje dizininde bir `.env` dosyası oluşturun ve aşağıdaki gibi doldurun:
 
-#### **Linux Komutlarıyla `.env` Dosyası Oluşturma**
+#### a. **Windows için:**
+Komut istemcisinde aşağıdaki komutları çalıştırarak `.env` dosyasını oluşturun:
+```cmd
+echo.> .env
+notepad .env
+```
+Notepad'de açılan dosyaya aşağıdaki bilgileri yapıştırın ve kaydedin:
+
+#### b. **Linux için:**
+Terminalde aşağıdaki komutları çalıştırarak `.env` dosyasını oluşturun:
 ```bash
 touch .env
 nano .env
@@ -153,6 +186,19 @@ CONTRACT_ADDRESS=0xF0a66d18b46D4D5dd9947914ab3B2DDbdC19C2C0
 
 ## **Adım 5: Botu Çalıştırma**
 
+#### a. **Windows için:**
+1. Komut istemcisinde aşağıdaki komutu çalıştırın:
+   ```cmd
+   node index.js
+   ```
+
+2. Telegram'da botunuza `/claim` komutunu gönderin:
+   ```text
+   /claim 5
+   ```
+   Bu komut, 5 adet claim işlemi başlatır.
+
+#### b. **Linux için:**
 1. Terminalde aşağıdaki komutu çalıştırın:
    ```bash
    node index.js
