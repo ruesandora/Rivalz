@@ -19,7 +19,7 @@ Telegram'da **[@BotFather](https://t.me/botfather)**'ı açın ve aşağıdaki a
 ### **2.1 Node.js Kurulumu**
 
 #### a. **Windows için:**
-Node.js'i [resmi web sitesi](https://nodejs.org) üzerinden indirip kurabilirsiniz.
+- Node.js'i [resmi web sitesi](https://nodejs.org) üzerinden indirip yükleyin.
 
 #### b. **Linux için:**
 ```bash
@@ -30,14 +30,10 @@ sudo apt install -y nodejs npm
 ### **2.2 Proje Dizini Oluşturma**
 
 #### a. **Windows için:**
-Komut istemcisinde aşağıdaki komutları çalıştırın:
-```cmd
-mkdir claim-bot
-cd claim-bot
-```
+- Yeni bir klasör oluşturun (örneğin `claim-bot`).
+- Bu klasörü açın ve içinde komut istemcisini başlatın.
 
 #### b. **Linux için:**
-Terminalde aşağıdaki komutları çalıştırın:
 ```bash
 mkdir claim-bot
 cd claim-bot
@@ -46,6 +42,7 @@ cd claim-bot
 ### **2.3 Gerekli Paketleri Kurma**
 
 #### a. **Windows için:**
+- Komut istemcisinde şu komutları çalıştırın:
 ```cmd
 npm install dotenv node-telegram-bot-api ethers
 ```
@@ -62,12 +59,8 @@ npm install dotenv node-telegram-bot-api ethers
 ### **3.1 `index.js` Dosyasını Oluşturma**
 
 #### a. **Windows için:**
-Komut istemcisinde aşağıdaki komutları çalıştırarak `index.js` dosyasını oluşturun:
-```cmd
-echo.> index.js
-notepad index.js
-```
-Notepad'de açılan dosyaya aşağıdaki kodları yapıştırın ve kaydedin:
+- Yeni bir dosya oluşturun: `index.js`.
+- Bir metin editörü (örneğin Notepad veya Visual Studio Code) ile açın ve aşağıdaki kodları yapıştırın.
 
 #### b. **Linux için:**
 Terminalde aşağıdaki komutları çalıştırarak `index.js` dosyasını oluşturun:
@@ -154,12 +147,8 @@ console.log("Bot çalışıyor, Telegram üzerinden komut bekleniyor...");
 ### **4.1 `.env` Dosyası Oluşturma**
 
 #### a. **Windows için:**
-Komut istemcisinde aşağıdaki komutları çalıştırarak `.env` dosyasını oluşturun:
-```cmd
-echo.> .env
-notepad .env
-```
-Notepad'de açılan dosyaya aşağıdaki bilgileri yapıştırın ve kaydedin:
+- Yeni bir dosya oluşturun: `.env`.
+- Metin editörüyle açın ve aşağıdaki bilgileri yapıştırın.
 
 #### b. **Linux için:**
 Terminalde aşağıdaki komutları çalıştırarak `.env` dosyasını oluşturun:
