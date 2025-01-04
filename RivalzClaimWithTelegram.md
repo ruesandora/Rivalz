@@ -115,8 +115,8 @@ Proje dizininde bir `.env` dosyası oluşturun ve aşağıdaki gibi doldurun:
 ```env
 TELEGRAM_BOT_TOKEN=YOUR_TELEGRAM_BOT_TOKEN
 PRIVATE_KEY=YOUR_WALLET_PRIVATE_KEY
-RPC_URL=https://your-rpc-url.com
-CONTRACT_ADDRESS=YOUR_CONTRACT_ADDRESS
+RPC_URL=https://rivalz2.rpc.caldera.xyz/http
+CONTRACT_ADDRESS=0xF0a66d18b46D4D5dd9947914ab3B2DDbdC19C2C0
 ```
 
 ### **4.2 Bilgilerinizi Doldurun**
