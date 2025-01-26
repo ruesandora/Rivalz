@@ -9,9 +9,9 @@
 
 > [Minion Lab](https://app.minionlab.ai/?referralCode=BKmubgib): Yakında 2.2m$ seed tamamladı, ton cüzdanınızı bağlamayı unutmayın.
 
-> Aşinasınızdır projeye: [LayerEdge](https://dashboard.layeredge.io/) , koda ihtiyacınız varsa: 2TERmpmU
+> Aşinasınızdır projeye: [LayerEdge](https://dashboard.layeredge.io/) , koda ihtiyacınız varsa: `2TERmpmU`
 
-> [Dawn](https://chromewebstore.google.com/detail/dawn-validator-chrome-ext/fpdkjdnhkakefebpekbdhillbhonfjjp): belkide en önemlisi olabilir: - koda ihtiyacınız varsa: b7t69p
+> [Dawn](https://chromewebstore.google.com/detail/dawn-validator-chrome-ext/fpdkjdnhkakefebpekbdhillbhonfjjp): belkide en önemlisi olabilir: - koda ihtiyacınız varsa: `b7t69p`
 
 > [Gradient](https://app.gradient.network/signup?code=XBC1WY), belki unutuldu ama ben çalıştırıyorum
 
