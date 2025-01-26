@@ -15,6 +15,10 @@
 
 > [Gradient](https://app.gradient.network/signup?code=XBC1WY), belki unutuldu ama ben çalıştırıyorum
 
+#
+
+> Vana ağında [YKYR](https://chromewebstore.google.com/detail/dawn-validator-chrome-ext/fpdkjdnhkakefebpekbdhillbhonfjjp) çok bir bilgi yok.
+
 > [BlockMesh](https://app.blockmesh.xyz/register?invite_code=3e203584-b216-45f0-9005-eff31376a657) - fikrim yok pek ilgilenmiyorum ama paylaşayım.
 
 #
