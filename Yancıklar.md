@@ -36,3 +36,4 @@
 
 > Tüm yancıkların ref linkini paylaşabileceğiniz yer için [burayı](https://t.me/+sTSzRlNWIpNiNjE0) kullanabilirsiniz.
 
+> Dahası gelecek [telegramda](https://t.me/RuesAnnouncement) duyururum, bugların düzelmesini bekliyorum.
