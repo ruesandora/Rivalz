@@ -16,6 +16,8 @@
 
 > [Gradient](https://app.gradient.network/signup?code=XBC1WY), belki unutuldu ama ben çalıştırıyorum
 
+> Teneo [buradan](https://chromewebstore.google.com/detail/teneo-community-node/emcclcoaglgcpoognfiggmhnhgabppkm) extension - koda ihtiyacınız varsa: `rYZur` - [kayıt linki](https://dashboard.teneo.pro/dashboard) 
+
 #
 
 * belirsizler
