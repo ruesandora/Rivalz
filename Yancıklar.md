@@ -22,7 +22,7 @@
 
 * belirsizler
 
-> Vana ağında [YKYR](https://chromewebstore.google.com/detail/dawn-validator-chrome-ext/fpdkjdnhkakefebpekbdhillbhonfjjp) çok bir bilgi yok.
+> Vana ağında [YKYR](https://chromewebstore.google.com/detail/ykyr/gfogbpcdlcihfaejpmdhigejhpckdamh) çok bir bilgi yok.
 
 > [BlockMesh](https://app.blockmesh.xyz/register?invite_code=3e203584-b216-45f0-9005-eff31376a657) - fikrim yok pek ilgilenmiyorum ama paylaşayım.
 
