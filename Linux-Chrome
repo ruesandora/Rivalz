@@ -1,0 +1,65 @@
+### Chrome Kurulum Rehberi
+
+###1. Klasör Oluşturalım 
+
+```bash
+mkdir chrome
+cd chrome
+nano docker-compose.yaml
+```
+
+#### 2. Docker Compose Dosyası
+
+Aşağıdaki kodları `docker-compose.yaml` dosyasına yapıştırın:
+
+```yaml
+version: '3.8'
+
+services:
+  chromium:
+    image: lscr.io/linuxserver/chromium:latest
+    container_name: chromium
+    security_opt:
+      - seccomp:unconfined #optional
+    environment:
+      - CUSTOM_USER=KULLANICI-ADINIZ    
+      - PASSWORD=ŞİFRENİZ    
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/London
+      - CHROME_CLI=
+    volumes:
+      - /root/chrome/config:/config
+    ports:
+      - 3010:3000 
+      - 3011:3001
+    shm_size: "2gb"
+    restart: unless-stopped
+```
+
+- **KULLANICI-ADINIZ**: Chromium'a giriş yapmak için kullanılacak kullanıcı adı.
+- **ŞİFRENİZ**: Chromium'a giriş yapmak için kullanılacak şifre.
+- **shm_size**: RAM boyutu 2 GB olarak ayarlandı.
+
+Dosyayı kaydetmek için `CTRL + X`, ardından `Y` ve `Enter` tuşlarına basın.
+
+---
+
+#### 3. Docker Konteynerini Başlatma
+
+```bash
+docker compose up -d
+```
+
+---
+
+#### 4. Chrome'a Erişim
+
+Tarayıcınızdan aşağıdaki adrese giderek Chrome'a erişebilirsiniz:
+
+```
+http://SUNUCU-IP-ADRESINIZ:3010
+```
+
+- **SUNUCU-IP-ADRESINIZ**: Sunucunuzun IP adresi.
+- Kullanıcı adı ve şifre ile giriş yapın.
